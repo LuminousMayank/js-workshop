@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 3px 3px 10px rgb(161, 167, 228);
+    border-top: 5px solid #1b007eeb;
+    border-bottom: 5px solid #1b007eeb;
+}
+body {
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+    color: white;
+    font-family: Monaco, monospace;
+    font-size: 1em;
+    flex-grow: 1;
+}
+h1 {
+    color: white;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1em;
+}
+.todo__value {
+    font-family: Monaco, monospace;
+    font-size: 1em;
+    flex-grow: 1;
+}
+#newDeleteButton{
+    background-color: #6b3f42eb;
+
+}
